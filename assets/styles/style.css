@@ -1,0 +1,100 @@
+@font-face {
+  font-family: candara;
+  src: url("../fonts/Candara_Font.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  /* overflow: hidden; */
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.rotate {
+  -moz-transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  color: #f37121;
+}
+.rotate.down {
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  color: #f37121;
+}
+
+.content {
+  padding: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.logo {
+  height: 150px;
+  width: 150px;
+}
+
+.logoo {
+  height: 150px;
+  width: 150px;
+}
+
+.main {
+  display: grid;
+  place-content: center;
+  height: 80vh;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.mainmenu {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+}
+
+.mainmenu img {
+  margin-bottom: 50px;
+}
+
+.mainmenu a {
+  margin: 10px 0;
+  text-decoration: none;
+}
+
+.mainmenu h4 {
+  color: #f37121;
+}
+
+.mainmenu a:hover h4 {
+  color: #b0dc2c;
+}
+
+.visibility {
+  visibility: hidden;
+}

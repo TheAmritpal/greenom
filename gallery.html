@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <link rel="stylesheet" href="./assets/styles/gallery.css" />
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.css" />
+    <link rel="stylesheet" href="./assets/OwlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/OwlCarousel/dist/assets/owl.theme.default.min.css">
+</head>
+</head>
+
+<body>
+    <video id="background-video" autoplay loop muted>
+        <source src="./assets/video/bg.mp4" type="video/mp4" />
+    </video>
+    <div class="content">
+        <nav>
+            <a href="/greenom"><img class="img-fluid logo" src="./assets/images/Greenom_Logo_v2.svg" /></a>
+            <a href="#" class="cross"><span class="me-1">gallery</span>
+                <div class="fa-solid fa-plus fa-lg rotate"></div>
+            </a>
+        </nav>
+        <div id="home">
+            <div class="gallery">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img class="img rounded" src="./assets/images/gallery.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="owl-carousel">
+                        <div>
+                            <div class="mb img-div ">
+                                <img class="thumb rounded img-fluid" src="./assets/images/gallery.png" alt="">
+                                <div class="overlay rounded"></div>
+                            </div>
+                            <div class="mb img-div">
+                                <img class="thumb rounded img-fluid" src="./assets/images/gallery.png" alt="">
+                                <div class="overlay rounded"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="mb img-div ">
+                                <img class="thumb rounded img-fluid" src="./assets/images/gallery.png" alt="">
+                                <div class="overlay rounded"></div>
+                            </div>
+                            <div class="mb img-div">
+                                <img class="thumb rounded img-fluid" src="./assets/images/gallery.png" alt="">
+                                <div class="overlay rounded"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="mb img-div ">
+                                <img class="thumb rounded img-fluid" src="./assets/images/gallery.png" alt="">
+                                <div class="overlay rounded"></div>
+                            </div>
+                            <div class="mb img-div">
+                                <img class="thumb rounded img-fluid" src="./assets/images/gallery.png" alt="">
+                                <div class="overlay rounded"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mobile">
+                        <div class="col-sm-4 mb img-div ">
+                            <img class="thumb rounded img-fluid" src="./assets/images/gallery.png" alt="">
+                            <div class="overlay rounded"></div>
+                        </div>
+                        <div class="col-sm-4 mb img-div">
+                            <img class="thumb rounded img-fluid" src="./assets/images/gallery.png" alt="">
+                            <div class="overlay rounded"></div>
+                        </div>
+                        <div class="col-sm-4 mb img-div">
+                            <img class="thumb rounded img-fluid" src="./assets/images/gallery.png" alt="">
+                            <div class="overlay rounded"></div>
+                        </div>
+                        <div class="col-sm-4 mt img-div">
+                            <img class="thumb rounded img-fluid" src="./assets/images/gallery.png" alt="">
+                            <div class="overlay rounded"></div>
+                        </div>
+                        <div class="col-sm-4 mt img-div">
+                            <img class="thumb rounded img-fluid" src="./assets/images/gallery.png" alt="">
+                            <div class="overlay rounded"></div>
+                        </div>
+                        <div class="col-sm-4 mt img-div">
+                            <img class="thumb rounded img-fluid" src="./assets/images/gallery.png" alt="">
+                            <div class="overlay rounded"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="nav" class="d-none">
+            <div class="mainmenu">
+                <img class="logoo" src="./assets/images/Greenom_Logo_v2.svg" alt="" />
+                <a href="gallery.html">
+                    <h4>gallery</h4>
+                </a><a href="about.html">
+                    <h4>about us</h4>
+                </a><a href="services.html">
+                    <h4>services</h4>
+                </a><a href="connect.html">
+                    <h4>connect</h4>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script src="./assets/OwlCarousel/dist/owl.carousel.min.js"></script>
+    <script src="./assets/js/custom.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                loop: true,
+                autoplay: true,
+                margin: 10,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    600: {
+                        items: 3,
+                        nav: false
+                    },
+                    1000: {
+                        items: 3,
+                        nav: true,
+                        loop: true
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

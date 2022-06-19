@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About</title>
+  <link rel="stylesheet" href="./assets/styles/style.css" />
+  <link rel="stylesheet" href="./assets/styles/about.css" />
+  <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./assets/fontawesome/css/all.css" />
+  <link rel="stylesheet" href="./assets/OwlCarousel/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="./assets/OwlCarousel/dist/assets/owl.theme.default.min.css">
+</head>
+</head>
+
+<body>
+  <video id="background-video" autoplay loop muted>
+    <source src="./assets/video/bg.mp4" type="video/mp4" />
+  </video>
+  <div class="content">
+    <nav>
+      <a href="/greenom"><img class="img-fluid logo" src="./assets/images/Greenom_Logo_v2.svg" /></a>
+      <a href="#" class="cross"><span class="me-1">about</span>
+        <div class="fa-solid fa-plus fa-lg rotate"></div>
+      </a>
+    </nav>
+    <div id="home">
+      <div class="about">
+        <h4>Green<span class="orange">om</span><span class="orange"> Studio</span></h4>
+        <p>Based In Mumbai, our team of talented creative minds, performs the Art of 3D <br> in Designing and <span
+            class="green">innovating the Industry</span> with their new and always updating techniques.</p>
+        <p>The combination of <span class="green">smart working skills</span> with hardworking ability <br>
+          makes us <span class="green">productive</span> and <span class="green">reliable</span> on quality and the time
+          constrains.
+        </p>
+        <p>Team Greenom consists of <span class="green">no employees but artists</span>, this wonderful thought makes us
+          take control <br>
+          of our own creation progressing in right direction which drives the team effortlessly without burnouts.</p>
+
+      </div>
+      <div class="bg-color">
+        <div class="owl-carousel">
+          <div class="item">
+            <p><span class="green">“</span> Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit, sed <span
+                class="green">”</span></p>
+            <p class="green m-0">Abhijeet Malondkar <br> [Framingo Studios]</p>
+          </div>
+          <div class="item">
+            <p><span class="green">“</span> Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit, sed <span
+                class="green">”</span></p>
+            <p class="green m-0">Abhijeet Malondkar <br> [Framingo Studios]</p>
+          </div>
+          <div class="item">
+            <p><span class="green">“</span> Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit, sed <span
+                class="green">”</span></p>
+            <p class="green m-0">Abhijeet Malondkar <br> [Framingo Studios]</p>
+          </div>
+          <div class="item">
+            <p><span class="green">“</span> Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit, sed <span
+                class="green">”</span></p>
+            <p class="green m-0">Abhijeet Malondkar <br> [Framingo Studios]</p>
+          </div>
+          <div class="item">
+            <p><span class="green">“</span> Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit, sed <span
+                class="green">”</span></p>
+            <p class="green m-0">Abhijeet Malondkar <br> [Framingo Studios]</p>
+          </div>
+          <div class="item">
+            <p><span class="green">“</span> Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit, sed <span
+                class="green">”</span></p>
+            <p class="green m-0">Abhijeet Malondkar <br> [Framingo Studios]</p>
+          </div>
+        </div>
+      </div>
+      <div class="about bottom">
+        <button>review here</button>
+        <p>With a goal of serving the 3D Industry Seamlessly with a strong and idealistic way of understanding <br>
+          the requirements of Clients, we are crossing milestones everyday with <span class="green">positive
+            responses</span></p>
+      </div>
+    </div>
+    <div id="nav" class="d-none">
+      <div class="mainmenu">
+        <img class="logoo" src="./assets/images/Greenom_Logo_v2.svg" alt="" />
+        <a href="gallery.html">
+          <h4>gallery</h4>
+        </a><a href="about.html">
+          <h4>about us</h4>
+        </a><a href="services.html">
+          <h4>services</h4>
+        </a><a href="connect.html">
+          <h4>connect</h4>
+        </a>
+      </div>
+    </div>
+  </div>
+  <script src="./assets/js/jquery-3.6.0.min.js"></script>
+  <script src="./assets/OwlCarousel/dist/owl.carousel.min.js"></script>
+  <script src="./assets/js/custom.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        dots: false,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: true
+          },
+          600: {
+            items: 3,
+            nav: false
+          },
+          1000: {
+            items: 5,
+            nav: true,
+            loop: false
+          }
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>

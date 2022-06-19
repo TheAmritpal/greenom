@@ -1,0 +1,27 @@
+.main h3 {
+  text-align: center;
+  color: #b0dc2c;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.text {
+  color: #f37121;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+footer i,
+p {
+  color: #f37121;
+}
+
+.copyright {
+  margin-bottom: 0 !important;
+  margin-left: 5px;
+  font-size: 14px;
+}

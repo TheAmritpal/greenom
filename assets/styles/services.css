@@ -1,0 +1,81 @@
+.cross {
+  text-decoration: none !important;
+}
+
+.cross span {
+  color: #b0dc2c;
+  font-family: candara;
+  font-weight: 600;
+}
+
+.cross div {
+  color: #f37121;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.titleDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #10101080;
+  border-radius: 20px;
+}
+
+.titleDiv p {
+  color: #f37121;
+  font-family: candara;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0;
+  padding: 10px 80px;
+}
+
+.owl-item.active.center {
+  -webkit-transform: scale(1.8);
+  transform: scale(1.8);
+  transition: 0.2s ease;
+}
+.item {
+  padding: 20px;
+  margin: 60px;
+  position: relative;
+}
+
+.item:hover .overlay {
+  opacity: 0;
+}
+
+.item:hover .overlay p {
+  display: none;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  transition: 0.2s ease;
+  opacity: 1;
+  color: white;
+  font-size: 20px;
+  margin: 20px;
+  text-align: center;
+  display: grid;
+  place-content: center;
+}
+
+.overlay p {
+  text-align: center;
+  margin: auto 0;
+  font-family: candara;
+  font-weight: 600;
+}
