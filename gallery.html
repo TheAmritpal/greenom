@@ -28,8 +28,11 @@
         </nav>
         <div id="home">
             <div class="gallery">
-                <div class="row">
+                <div class="row web">
                     <div class="col-sm-6">
+                        <video controls class="video rounded d-none">
+                            <source src="" type="video/mp4" />
+                        </video>
                         <img class="img rounded" src="./assets/images/gallery.png" alt="">
                     </div>
                 </div>
@@ -37,7 +40,8 @@
                     <div class="owl-carousel">
                         <div>
                             <div class="mb img-div ">
-                                <img class="thumb rounded img-fluid" src="./assets/images/gallery.png" alt="">
+                                <img class="thumb rounded img-fluid" is-video="1" video-src="./assets/video/bg.mp4"
+                                    src="./assets/images/gallery.png" alt="">
                                 <div class="overlay rounded"></div>
                             </div>
                             <div class="mb img-div">
@@ -66,31 +70,34 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row mobile">
-                        <div class="col-sm-4 mb img-div ">
-                            <img class="thumb rounded img-fluid" src="./assets/images/gallery.png" alt="">
-                            <div class="overlay rounded"></div>
-                        </div>
-                        <div class="col-sm-4 mb img-div">
-                            <img class="thumb rounded img-fluid" src="./assets/images/gallery.png" alt="">
-                            <div class="overlay rounded"></div>
-                        </div>
-                        <div class="col-sm-4 mb img-div">
-                            <img class="thumb rounded img-fluid" src="./assets/images/gallery.png" alt="">
-                            <div class="overlay rounded"></div>
-                        </div>
-                        <div class="col-sm-4 mt img-div">
-                            <img class="thumb rounded img-fluid" src="./assets/images/gallery.png" alt="">
-                            <div class="overlay rounded"></div>
-                        </div>
-                        <div class="col-sm-4 mt img-div">
-                            <img class="thumb rounded img-fluid" src="./assets/images/gallery.png" alt="">
-                            <div class="overlay rounded"></div>
-                        </div>
-                        <div class="col-sm-4 mt img-div">
-                            <img class="thumb rounded img-fluid" src="./assets/images/gallery.png" alt="">
-                            <div class="overlay rounded"></div>
-                        </div>
+                </div>
+                <div class="row mobile">
+                    <div class="col-sm-4 mb img-div ">
+                        <video controls poster="./assets/images/gallery.png" class="videoMobile rounded">
+                            <source src="./assets/video/bg.mp4" type="video/mp4" />
+                        </video>
+                        <!-- <img class="thumb rounded img-fluid" src="./assets/images/gallery.png" alt=""> -->
+                        <div class="overlay rounded"></div>
+                    </div>
+                    <div class="col-sm-4 mb img-div">
+                        <img class="thumb rounded img-fluid" src="./assets/images/gallery.png" alt="">
+                        <div class="overlay rounded"></div>
+                    </div>
+                    <div class="col-sm-4 mb img-div">
+                        <img class="thumb rounded img-fluid" src="./assets/images/gallery.png" alt="">
+                        <div class="overlay rounded"></div>
+                    </div>
+                    <div class="col-sm-4 mt img-div">
+                        <img class="thumb rounded img-fluid" src="./assets/images/gallery.png" alt="">
+                        <div class="overlay rounded"></div>
+                    </div>
+                    <div class="col-sm-4 mt img-div">
+                        <img class="thumb rounded img-fluid" src="./assets/images/gallery.png" alt="">
+                        <div class="overlay rounded"></div>
+                    </div>
+                    <div class="col-sm-4 mt img-div">
+                        <img class="thumb rounded img-fluid" src="./assets/images/gallery.png" alt="">
+                        <div class="overlay rounded"></div>
                     </div>
                 </div>
             </div>
